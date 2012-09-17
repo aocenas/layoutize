@@ -17,7 +17,8 @@ Will create this output:
 
 Or if you like plain html more:
 ```
-layoutize -i "o3,2,2|3,4"
+layoutize -F html -i "o3,2,2|3,4"
+
 <div class="row">
   <div class="span2 offset3"></div>
   <div class="span2"></div>
@@ -27,13 +28,10 @@ layoutize -i "o3,2,2|3,4"
   <div class="span4"></div>
 ```
 
-To use it in your javascript:
+Or in javascript:
 ```javascript
 var layoutize = require('layoutize');
 var layout = layoutize('o3,2,2|3,4').jade();
 layout.html();
 layout.jade();
 ```
-
-## TODO
-1. push to npm

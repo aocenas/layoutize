@@ -1,0 +1,14 @@
+{
+  "name": "layoutize",
+  "version": "0.1.0",
+  "description": "create simple, Twitter Bootstrap based layouts fast",
+  "keywords": ["layout", "html", "jade", "bootstrap"],
+  "author": "andrej ocenas <mr.ocenas@gmail.com>",
+  "dependencies": {
+    "jade": "0.27.2",
+    "commander": "1.0.4",
+    "underscore": "1.3.3"
+  },
+  "main": "./index.js",
+  "bin": "./bin/layoutize"
+}
